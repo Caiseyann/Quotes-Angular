@@ -17,6 +17,9 @@ export class QuoteComponent implements OnInit {
       new Quote(6, 'Plot my world domination planss','Cause I am an evil overlord'),
     ]
 
+    toogleDetails(index){
+        this.Quotes[index].showDescription =!this.Quotes[index].showDescription;
+    }
 
   constructor() { }
 
