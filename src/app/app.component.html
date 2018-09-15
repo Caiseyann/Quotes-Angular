@@ -4,3 +4,4 @@
 <ul>
   <li *ngFor='let quote of quotes'>{{quote.name}}</li>
 </ul>
+  <p *ngIf='quotes.length'>You have to many quotes</p>
