@@ -3,4 +3,4 @@
 <ul>
   <li *ngFor='let quote of quotes'>{{quote.name}}</li>
 </ul>
-<p></p>
+<p *ngIf='quotes.length'></p>
