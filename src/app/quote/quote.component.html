@@ -3,8 +3,11 @@
 <ul>
   <div *ngFor='let quote of Quotes;let i = index'>
       <li>{{quote.name}}</li>
+      <!-- Toggle Button -->
       <button (click)='toogleDetails(i)'>Toogle Details</button>
-      <app-quote-details *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>
+
+
+      <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='completeQuote($event,i)' ></app-quote-details>
   </div>
 </ul>
 <p *ngIf='Quotes.length'>You have too many Quotes</p>
