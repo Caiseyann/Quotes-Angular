@@ -2,7 +2,7 @@
 
 <ul>
   <div *ngFor='let quote of Quotes;let i = index'>
-      <li>{{quote.name}}</li>
+      <li id="{{i}}" appStrickthrough>{{quote.name}} due on {{</li>
       <!-- Toggle Button -->
       <button (click)='toogleDetails(i)'>Toogle Details</button>
 
