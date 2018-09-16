@@ -17,14 +17,19 @@ export class QuoteComponent implements OnInit {
       new Quote(6, 'Plot my world domination planss', 'Cause I am an evil overlord', new Date(2018, 3, 14) ),
     ]
 
+    
     toogleDetails(index){
         this.Quotes[index].showDescription =!this.Quotes[index].showDescription;
     }
 
-    completeQuote(isComplete,index){
+    deleteQuote(isComplete,index){
         if (isComplete){
-            this.Quotes.splice(index,1);
+            let toDelete=confirm(`Are you sure you want to delete ${this.Quotes[index].name}`)
+            
+            if(toDelete){
+                this.Quotes.splice(index,1)
             }
+        }
     }
 
   constructor() { }
