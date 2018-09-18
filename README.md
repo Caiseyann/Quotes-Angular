@@ -69,6 +69,14 @@ Link:-> ```https://github.com/zecollokaris/Quotes-Angular```
     ng serve.
     ```
 
+9. Open your prefered **web browser** and load it on local host:
+
+    ```
+    http://localhost:4200/
+    ```
+
+10. This will load for you Quotes as long as your requirements are satisfied.
+
 
 
 
