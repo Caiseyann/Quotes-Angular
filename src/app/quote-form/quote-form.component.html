@@ -2,12 +2,13 @@
   <div class="row">
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
       <!-- Name Form -->
-      <div class="form-group">
+      <div style="margin-left: 20%;" class="form-group">
 
         <label for="name">Quote Author:</label>
         <br>
-        <input style="width: 50%; height: 50%;" type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required >
+        <input style="width: 70%; height: 50%;border: 4px solid rgb(209, 5, 5);" type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required >
         
+        <br>
 
         <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
           <p> Author is Required</p>
@@ -19,14 +20,16 @@
 
       </div>
 
-      <!-- Description Input -->
-      <div class="form-group">
+      <!-- Quote Input -->
+      <div style="margin-top:3%;margin-left: 20%;" class="form-group">
 
-        <label for="description">Description</label>
-        <textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
-        
+        <label for="description">Quote:</label>
+        <br>
+        <textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required style="width: 70%;border: 4px solid rgb(209, 5, 5);" ></textarea>
+        <br>
         <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
-          <p> Description is Required</p>
+          <br>
+          <p> Quote is Required</p>
         
         </div>
         
@@ -36,17 +39,18 @@
       </div>
 
       <!-- Date Input -->
-      <div class="form-group">
-        <label for="complete">Completion</label>
-        <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
+      <div style="margin-left: 20%; margin-top:1%;" class="form-group">
+        <label for="complete">Date:</label>
+        <br>
+        <input style="border: 2px solid rgb(209, 5, 5, 0.4);" type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
         <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
-          <p> Complete Date is Required</p>
+          <p>Date is Required</p>
         
         </div>
 
       </div>
       
-      <button type="submit" id="button" ></button>
+      <button style="margin-left: 45%; margin-top: 2%;" type="submit" id="button" ></button>
     </form>
   </div>
 </div>
