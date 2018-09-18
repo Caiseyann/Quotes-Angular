@@ -86,10 +86,12 @@ Link:-> ```https://github.com/zecollokaris/Quotes-Angular```
 
 
 ## Development server
+---
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Support and Contact
+## Support and Contact
+---
 
 -Mobile number: (+254) 798731203
 
@@ -97,20 +99,17 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 -github-username: zecollokaris
 
----
+
 
 ## License
+---
 
 The app is licensed by MIT.
 
 MIT (c) 2018
 
-Feel FREE to contribute to make the CLI better for easier use by others.
-
+## Further help
 ---
 
-
-
-## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
