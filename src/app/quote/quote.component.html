@@ -12,7 +12,7 @@
       <h4  id="{{i}}" appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</h4>
       
       <!-- Toggle Button -->
-      <div class="col-md-3 col-sm-3 col-xs-6">  <a href="#" class="btn btn-sm animated-button thar-one" (click)='toogleDetails(i)'>TOOGLE</a> </div>
+      <div style="width: 130px;">  <a href="#" class="btn btn-sm animated-button thar-one" (click)='toogleDetails(i)'>TOOGLE</a> </div>
       
       <div class="row" *ngIf="quote.showDescription">
         <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
