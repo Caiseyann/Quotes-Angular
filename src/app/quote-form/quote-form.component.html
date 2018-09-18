@@ -2,7 +2,7 @@
   <div class="row">
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
       <!-- Name Form -->
-      <div style="margin-left: 20%;" class="form-group">
+      <div style="margin-left: 5%;" class="form-group">
 
         <label for="name">Quote Author:</label>
         <br>
@@ -21,7 +21,7 @@
       </div>
 
       <!-- Quote Input -->
-      <div style="margin-top:3%;margin-left: 20%;" class="form-group">
+      <div style="margin-top:3%;margin-left: 5%;" class="form-group">
 
         <label for="description">Quote:</label>
         <br>
@@ -39,7 +39,7 @@
       </div>
 
       <!-- Date Input -->
-      <div style="margin-left: 20%; margin-top:1%;" class="form-group">
+      <div style="margin-left: 5%; margin-top:1%;" class="form-group">
         <label for="complete">Date:</label>
         <br>
         <input style="border: 2px solid rgb(209, 5, 5, 0.4);" type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
@@ -50,7 +50,7 @@
 
       </div>
       
-      <button style="margin-left: 45%; margin-top: 2%;" type="submit" id="button" ></button>
+      <button style="margin-left: 30%; margin-top: 2%;" type="submit" id="button" ></button>
     </form>
   </div>
 </div>

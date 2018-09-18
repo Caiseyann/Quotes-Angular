@@ -1,4 +1,6 @@
-<p>{{quote.description}}</p>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Jura|Niconne|Russo+One|Viga" rel="stylesheet">
 
-<p>This Quote will be completed in {{quote.completeDate|dateCount}} days</p>
+<h2 style="font-family: 'Viga', sans-serif;" >{{quote.description}}</h2>
+
+<h3 style="font-family: 'Niconne', cursive;">This Quote was submitted {{quote.completeDate|dateCount}} days ago</h3>
 <div style="width: 20%;"> <a href="#" class="btn btn-sm animated-button victoria-one" (click) = 'quoteDelete(true)' >Delete Quote</a> </div>
