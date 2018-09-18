@@ -36,12 +36,30 @@ Link~  ```https://github.com/zecollokaris/Django-shell-script```
 
 - Typescript
 
+- Terminal
+
 If you dont have this requirements you could use the link above to help with the installation guide.
 
 
+# **SETUP/INSTALLATION.**
+
 # Setup/Installation.
 
+**To work With this cli {follow the below instructions for set up.}**
 
+1. You will need Internet connection.
+
+2. You will also need a Webpage URL to load in URL's:
+
+3. To get to use **QUOTES** fist you need to get to the Quotes-Angular repository. 
+
+Link:-> ```https://github.com/zecollokaris/Quotes-Angular```
+
+4. From there you can access Quotes.
+
+5. **Clone** the project.
+
+6. Once you done with cloning and project is on your device.
 
 
 
