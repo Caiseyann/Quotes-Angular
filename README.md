@@ -6,7 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This is a Quote application created that allows users to add Quotes view them and either like or dislike other submited Quotes.
 
+## User Story
+- User can view submited quotes.
 
+- Users have a toogle option where they can view quotes with their authors.
+
+- Users can see the how many days have passed since the quote was submited.
+
+- Users can either like or dilike posted quotes
+
+- User can upload Quotes of their liking and have them liked or disliked.
 
 ## Development server
 
