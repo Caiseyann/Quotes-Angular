@@ -5,7 +5,8 @@ import { QuoteDetailsComponent } from '../quote-details/quote-details.component'
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
-  styleUrls: ['./quote-form.component.css']
+  styleUrls: ['./quote-form.component.scss']
+  
 })
 export class QuoteFormComponent implements OnInit {
 
