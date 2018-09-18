@@ -39,6 +39,9 @@ Link~  ```https://github.com/zecollokaris/Django-shell-script```
 If you dont have this requirements you could use the link above to help with the installation guide.
 
 
+# Setup/Installation.
+
+
 
 
 
