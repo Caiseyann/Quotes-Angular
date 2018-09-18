@@ -28,6 +28,14 @@ you can check the checkout the following link for installation instructions~
 
 Link~  ```https://github.com/zecollokaris/Django-shell-script```
 
+- Node.js
+
+- Angular framework
+
+- Watchman
+
+- Typescript
+
 
 
 
